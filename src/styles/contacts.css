@@ -1,0 +1,45 @@
+.contacts-container{
+    padding: 15px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+    background-color: #dcdde1;
+    border-radius: 4px;
+    box-shadow: -3px -3px -7px #ffffff97;
+    box-shadow: 2px 2px 5px rgba(94,104,121,.288);
+    overflow: auto;
+}
+input{
+    width:85%;
+    padding: 6px 12px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    color:gray;
+}
+input:focus{
+    outline-style: solid;
+    outline-color: rgba(0,0,0,.3);
+    outline-width: 1px;
+}
+input::placeholder{
+    opacity: .8;
+    font-size: 14px;
+}
+button{
+    width: 92%;
+    padding: 6px 12px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    box-shadow: 2px 2px 5px rgba(94,104,121,.4);    
+    color:white;
+    background-color: #2ed573;
+}
+button:hover{
+    cursor: pointer;
+    opacity: .7;
+    
+}
